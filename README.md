@@ -1,4 +1,5 @@
-== pdf_split_bookmark-pdftk ==
+pdf_split_bookmark-pdftk
+========================
 
 This utility reads bookmarks using PDFTK, then splits based on a specified bookmark level.
 
@@ -8,9 +9,9 @@ Caveat: Bookmarks should start a new page.
 
 Usage:
 
-  pdf = PDF.new('foo.pdf')
-  pdf.split_by_bookmark_at_level(2)
+    pdf = PDF.new('foo.pdf')
+    pdf.split_by_bookmark_at_level(2)
 
 Optionally specify an output directory:
 
-  pdf.split_by_bookmark_at_level(2, '/dev/null')
+    pdf.split_by_bookmark_at_level(2, '/dev/null')
